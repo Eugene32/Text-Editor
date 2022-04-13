@@ -24,7 +24,7 @@ module.exports = () => {
       // Webpack plugin that generates our html file and injects our bundles. 
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Webpack Plugin',
+        title: 'Text Editor',
       }),
       new MiniCssExtractPlugin(),
       new WorkboxPlugin.GenerateSW(),
@@ -38,9 +38,9 @@ module.exports = () => {
 new WebpackPwaManifest({
   fingerprints: false,
   inject: true,
-  name: 'Contact Cards',
-  short_name: 'Contact',
-  description: 'Never forget your contacts!',
+  name: 'Text Editor',
+  short_name: 'Editor',
+  description: 'Another text editor!',
   background_color: '#225ca3',
   theme_color: '#225ca3',
   start_url: '/',
@@ -61,7 +61,7 @@ new WebpackPwaManifest({
 
         {
           test: /\.css$/i,
-          use: [MiniCssExtractPlugin.loader, 'css-loader'],
+          use: ['style-loader', 'css-loader'],
         },
         {
           test: /\.(png|svg|jpg|jpeg|gif)$/i,
