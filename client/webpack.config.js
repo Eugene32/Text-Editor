@@ -30,7 +30,7 @@ module.exports = () => {
       new WorkboxPlugin.GenerateSW(),
       // Injects our custom service worker
       new InjectManifest({
-        swSrc: './src-sw.js',
+        swSrc: './src-sw.js',  //This must point to the manifest file src-sw.js location.
         swDest: 'src-sw.js',
       }), 
 
