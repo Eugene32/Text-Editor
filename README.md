@@ -40,7 +40,7 @@ This is a simple text editor in the olden days like "WordStart" where you can en
      
 - Create a .gitignore file (under root directory) and must contain:
 
-     	      node_modules/
+     	    node_modules/
             dist/
             /node_modules
             npm-debug.log
