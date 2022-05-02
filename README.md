@@ -6,6 +6,8 @@ A simple text editor that utilizes index.db and allows the user to have an
 ### Description:  
 This is a simple text editor in the olden days like "WordStart" where you can enter text and characters while the lines are numbered.  The editor can be opened unto a browser while you have the option to have the application as a standalone app when installed.
 
+You can install the app so that it can be accessed offline via the "Install" button located at the upper left portion of the application under the web browser.
+
 ### Technologies:
 
 - Express.js
@@ -46,6 +48,8 @@ This is a simple text editor in the olden days like "WordStart" where you can en
             npm-debug.log
             .DS_Store
             /*.env
+	      
+- Type NPM START (under root directory) to launch the application and type: 'http://localhost:3000/' as a URL on the browser.
      
 ## Usage:  
 - Can be used for any device.
