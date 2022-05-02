@@ -61,7 +61,7 @@ This is a simple text editor in the olden days like "WordStart" where you can en
 
 ![alt text][logo]
 
-[logo]: assets/images/demo/demo1.png "JATE demo"
+[logo]: /JATE.jpg "JATE demo"
 
 
 ## Questions: 
